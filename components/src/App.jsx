@@ -2,9 +2,21 @@
 const App = () => {
   return (
     <div>
-      <div>
-        hello jeeee
+      <div className="card1">
+        <h1>VIRAT KOHLI</h1>
+        <p>unbeatable</p>
       </div>
+
+      <div className="card1">
+        <h1>VIRAT KOHLI</h1>
+        <p>unbeatable</p>
+      </div>
+      
+      <div className="card1">
+        <h1>VIRAT KOHLI</h1>
+        <p>unbeatable</p>
+      </div>
+
     </div>
   )
 }
