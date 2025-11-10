@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100%;
+  width: 100%;
+}
+.Child1{
+  height:340px;
+  width: 300px;
+  background-color: rgb(91, 84, 84);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  color: white;
+  padding: 10px 20px;
+  margin: 20px;
+  text-align: center;
+}
+.parent{
+  display: flex;
+  /* border: 2px solid red; */
+  flex-wrap: wrap;
+  margin: 20px 60px;
+
+}
+.Child1 img{
+  width: 65%;
+  height: 160px;
+  border-radius: 50%;
+}
+.Child1 h1{
+  margin: 10px 0px;
+}
+.Child1 button{
+  background-color: black;
+  color: white;
+  margin:10px auto;
+  border-radius: 8px;
+  padding: 8px 20px;
+}
