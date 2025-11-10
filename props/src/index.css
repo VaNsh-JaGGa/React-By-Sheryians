@@ -18,6 +18,9 @@ body{
   margin: 20px;
   text-align: center;
 }
+.Child1 p{
+  text-align: justify;
+}
 .parent{
   display: flex;
   /* border: 2px solid red; */
