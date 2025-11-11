@@ -4,8 +4,19 @@
   box-sizing: border-box;
 }
 body{
-  background-color: black;
+  /* background-color: black; */
   height: 100%;
   width: 100%;
-  color: white;
+  /* color: white; */
+}
+.parent{
+  height: 100vh;
+  width: 100%;
+  background-color: #111;
+}
+.card{
+  height: 400px;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 30px;
 }
