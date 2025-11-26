@@ -1,3 +1,4 @@
+// iisme ham jab form ko submit krte hai too pura page reload na hoon iisliye hamne form ko handle kia hai through the prevent default ye hame uski funcitionality ko perform nahi karne deta.
 
 const App = () => {
 
