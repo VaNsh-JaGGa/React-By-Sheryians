@@ -3,19 +3,21 @@
 const App = () => {
 
   const submitHandler = (e) => {
-    e.preventDefault();
-    console.log("Form submitted")
+    // e.preventDefault();
+    // console.log("Form submitted")
   }
-
 
   return (
     <div>
+
       <form onSubmit={(e)=>{
+        console.log(e);
         submitHandler(e)
       }}>
       <input type="text" placeholder="enter your name" />
       <button>Submit</button>
       </form>
+      
     </div>
   )
 }

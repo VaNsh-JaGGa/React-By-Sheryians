@@ -36,7 +36,7 @@ const App = () => {
           value={title}
 
           onChange={(e)=>{
-          // console.log("inputinnggg.....");
+          console.log("inputinnggg.....");
           settitle(e.target.value);
         }}
 

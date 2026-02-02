@@ -2,7 +2,6 @@
 const App = () => {
   const btnClicked = () =>{
     console.log("button clicked");
-    
   }
 
   const mouseEntered = () =>{
@@ -13,6 +12,7 @@ const App = () => {
     // console.log('changing');
     console.log(val);
   }
+
   return (
     <div>
       <button onMouseEnter={mouseEntered} onClick={btnClicked} >Click here</button>
@@ -20,7 +20,6 @@ const App = () => {
       }} />
       <input type="text" placeholder="hellll" onChange={(elem)=>{showingChanges(elem.target.value)}} />
     </div>
-
   )
 }
 

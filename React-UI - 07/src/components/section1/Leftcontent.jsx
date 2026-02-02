@@ -7,7 +7,6 @@ const Leftcontent = () => {
     <div className="h-full w-1/3 flex flex-col justify-between  ">
       <HeroTxt />
       <Arrow />
-      
     </div>
   )
 }

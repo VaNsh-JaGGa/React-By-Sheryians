@@ -3,7 +3,7 @@ import { useState } from "react"
 
 const App = () => {
 
-const [num, setnum] = useState(0)
+const [num, setnum] = useState(10)
 
 const increaseNum = () => {
   setnum(num + 1);
@@ -16,7 +16,8 @@ const decreaseNum = () => {
 const jumpBy5 = () =>{
   setnum(num+5);
 }
-  return (
+
+return (
     <div>
       <h1>{num}</h1>
       <button onClick={()=>{
